@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* header styling , Use flexbox to position the content and logo */
+header {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Align the logo to the left */
+.logo {
+    flex: 1;
+    text-align: left;
+}
+
+/* Adjust the logo width */
+.logo img {
+    width: 400px;
+}
+
+/* Take up available space */
+.header-content {
+    flex: 2;
+    text-align: left;
+}
+
+/* Styling heading text with different text and font properties */
+h1 {
+    /* font 1 */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #121212;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: -1px 1px 0 #eb6d06f1,
+        1px 1px 0 #1187dc,
+        1px -1px 0 #b4cfce,
+        -1px -1px 0 #0f0897;
+}
+
+/* font 2 */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* font 3 */
+.header-content>p {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* font 4 */
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+/* Style the lyrics section */
+#lyrics {
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+#lyrics.style {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 101, 67);
+    background: linear-gradient(90deg, rgba(255, 101, 67, 1) 0%, rgba(223, 102, 69, 1) 1%, rgba(0, 219, 255, 1) 64%, rgba(0, 117, 255, 1) 100%);
+
+}
+
+.paragraph {
+    margin-top: 50px;
+}
+
+/* Additional CSS for different emotions. So, we can add any class to style the text content */
+#lyrics.happy {
+    background-color: #ffec40;
+    color: #333;
+    font-weight: bold;
+}
+
+#lyrics.sad {
+    background-color: #b0e0e6;
+    color: #333;
+    font-style: italic;
+}
+
+#lyrics.energetic {
+    background-color: #ff5733;
+    color: #fff;
+    font-weight: bold;
+}
+
+#lyrics.calm {
+    background-color: #c2d1cc;
+    color: #333;
+    font-size: 26px;
+    padding: 30px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+}
